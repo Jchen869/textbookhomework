@@ -8,15 +8,19 @@
 public class Chocolate {
     public static void main (String[] args){
 
-        int Bags = 9;
-        int CocoBars = 2;
-        System.out.print("Total Chocolate Bars = ");
-        System.out.println(Bags * CocoBars);
+        int bags = 9;
+        int cocoBars = 2;
+        System.out.print("Total Chocolate Bars = "); //Says what the total amount of chocolate bars
+        System.out.println(bags * cocoBars); //Calculates the total amount of chocolate bars
 
-        int NewEach = 3;
+        int newEach = 3;
         System.out.println("18 / 3");
-        System.out.print("Number of bags needed = ");
-        System.out.println(Bags * CocoBars / NewEach);
+        //Divides the total amount of chocolate bars
+        // by how many chocolate bars is need in each bag
+        System.out.print("Number of bags needed = "); //Says what the total of bag are needed
+        System.out.println(bags * cocoBars / newEach);
+        //Calculates how many bags is
+        // needed to fit 3 chocolates in each
 
     }
 }

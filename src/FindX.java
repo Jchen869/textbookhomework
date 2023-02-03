@@ -13,5 +13,6 @@ public class FindX {
         //Except for the missing variable.
         System.out.print("X = "); //What the missing variable is equal to.
         System.out.println(194 - 5 - 19 - 47); //Subtracts to calculate the missing variable.
+
     }
 }

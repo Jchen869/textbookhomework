@@ -10,11 +10,13 @@ public class MaleStudent {
 
         System.out.println("There are 389 students in a small middle school. " +
                 "How many students are male give that there are 175 female students?"); //Explains the problem
+        int allStudents = 389;
+        int femaleStudents = 175;
 
-        System.out.println("175 + x = 389");
-        System.out.println("x = 389 - 175");
-        System.out.print("x = ");
-        System.out.println(389 - 175);
+        System.out.println("175 + x = 389"); //Shows the setup equation
+        System.out.println("x = 389 - 175"); //Moves 175 to the right of the equal sign and subtracts it
+        System.out.println("x = " + (allStudents - femaleStudents));
+        //The amount of all students minus the female students
+
     }
-
 }
