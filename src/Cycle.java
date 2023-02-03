@@ -10,7 +10,6 @@ public class Cycle {
     public static void main (String[] args){
 
         int allWheels = 47;
-
         int bicycles = 10;
         int biWheelEach = 2;
 
